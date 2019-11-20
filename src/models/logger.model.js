@@ -1,5 +1,5 @@
 const { model } = require("mongoose");
-const BaseModel = require('lib/models/BaseModel');
+const BaseModel = require('@the-medicsoft/webapi-framework/lib/models/BaseModel');
 const { LoggerSchema } = require('../schemas/logger.schema');
 
 class LoggerModel extends BaseModel {
