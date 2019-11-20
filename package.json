@@ -1,0 +1,24 @@
+{
+  "name": "@the-medicsoft/logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Microservice",
+    "Micro",
+    "logger"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@the-medicsoft/webapi-framework": "git+https://github.com/the-medicsoft/webapi-framework.git#master"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.4"
+  }
+}
